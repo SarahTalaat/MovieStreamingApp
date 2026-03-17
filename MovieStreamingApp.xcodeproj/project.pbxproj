@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FF0A6C3E2F670551007D5B81 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF0A6C3D2F670551007D5B81 /* Mulish-Regular.ttf */; };
+		FF0A6C402F670562007D5B81 /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF0A6C3F2F670562007D5B81 /* Mulish-Medium.ttf */; };
+		FF0A6C422F67056F007D5B81 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF0A6C412F67056F007D5B81 /* Mulish-Bold.ttf */; };
+		FF0A6C442F67057B007D5B81 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF0A6C432F67057B007D5B81 /* Mulish-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		442F1C4D2F646A77003D64C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +34,28 @@
 		442F1C3A2F646A75003D64C2 /* MovieStreamingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieStreamingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		442F1C4C2F646A77003D64C2 /* MovieStreamingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieStreamingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		442F1C562F646A77003D64C2 /* MovieStreamingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieStreamingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0A6C3D2F670551007D5B81 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		FF0A6C3F2F670562007D5B81 /* Mulish-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Medium.ttf"; sourceTree = "<group>"; };
+		FF0A6C412F67056F007D5B81 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		FF0A6C432F67057B007D5B81 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FF0A6C462F6705C6007D5B81 /* Exceptions for "MovieStreamingApp" folder in "MovieStreamingApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 442F1C392F646A75003D64C2 /* MovieStreamingApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		442F1C3C2F646A75003D64C2 /* MovieStreamingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF0A6C462F6705C6007D5B81 /* Exceptions for "MovieStreamingApp" folder in "MovieStreamingApp" target */,
+			);
 			path = MovieStreamingApp;
 			sourceTree = "<group>";
 		};
@@ -43,6 +67,11 @@
 		442F1C592F646A77003D64C2 /* MovieStreamingAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MovieStreamingAppUITests;
+			sourceTree = "<group>";
+		};
+		FF0A6C472F670E59007D5B81 /* DesignSystem */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DesignSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +104,15 @@
 		442F1C312F646A75003D64C2 = {
 			isa = PBXGroup;
 			children = (
+				FF0A6C472F670E59007D5B81 /* DesignSystem */,
 				442F1C3C2F646A75003D64C2 /* MovieStreamingApp */,
 				442F1C4F2F646A77003D64C2 /* MovieStreamingAppTests */,
 				442F1C592F646A77003D64C2 /* MovieStreamingAppUITests */,
 				442F1C3B2F646A75003D64C2 /* Products */,
+				FF0A6C3D2F670551007D5B81 /* Mulish-Regular.ttf */,
+				FF0A6C3F2F670562007D5B81 /* Mulish-Medium.ttf */,
+				FF0A6C412F67056F007D5B81 /* Mulish-Bold.ttf */,
+				FF0A6C432F67057B007D5B81 /* Mulish-SemiBold.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +143,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				442F1C3C2F646A75003D64C2 /* MovieStreamingApp */,
+				FF0A6C472F670E59007D5B81 /* DesignSystem */,
 			);
 			name = MovieStreamingApp;
 			packageProductDependencies = (
@@ -212,6 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0A6C402F670562007D5B81 /* Mulish-Medium.ttf in Resources */,
+				FF0A6C3E2F670551007D5B81 /* Mulish-Regular.ttf in Resources */,
+				FF0A6C422F67056F007D5B81 /* Mulish-Bold.ttf in Resources */,
+				FF0A6C442F67057B007D5B81 /* Mulish-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +433,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -404,10 +444,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 16;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahTalaatAmmar.MovieStreamingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,7 +461,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.2;
+				XROS_DEPLOYMENT_TARGET = 16;
 			};
 			name = Debug;
 		};
@@ -436,6 +476,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -446,10 +487,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 16;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahTalaatAmmar.MovieStreamingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,7 +504,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.2;
+				XROS_DEPLOYMENT_TARGET = 16;
 			};
 			name = Release;
 		};
