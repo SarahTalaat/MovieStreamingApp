@@ -6,13 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		FF0A6C3E2F670551007D5B81 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF0A6C3D2F670551007D5B81 /* Mulish-Regular.ttf */; };
-		FF0A6C402F670562007D5B81 /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF0A6C3F2F670562007D5B81 /* Mulish-Medium.ttf */; };
-		FF0A6C422F67056F007D5B81 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF0A6C412F67056F007D5B81 /* Mulish-Bold.ttf */; };
-		FF0A6C442F67057B007D5B81 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF0A6C432F67057B007D5B81 /* Mulish-SemiBold.ttf */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		442F1C4D2F646A77003D64C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,10 +27,6 @@
 		442F1C3A2F646A75003D64C2 /* MovieStreamingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieStreamingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		442F1C4C2F646A77003D64C2 /* MovieStreamingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieStreamingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		442F1C562F646A77003D64C2 /* MovieStreamingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieStreamingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF0A6C3D2F670551007D5B81 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Regular.ttf"; sourceTree = "<group>"; };
-		FF0A6C3F2F670562007D5B81 /* Mulish-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Medium.ttf"; sourceTree = "<group>"; };
-		FF0A6C412F67056F007D5B81 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Bold.ttf"; sourceTree = "<group>"; };
-		FF0A6C432F67057B007D5B81 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -72,6 +61,11 @@
 		FF0A6C472F670E59007D5B81 /* DesignSystem */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		FF930B1C2F69B21400E491D9 /* Fonts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -109,10 +103,7 @@
 				442F1C4F2F646A77003D64C2 /* MovieStreamingAppTests */,
 				442F1C592F646A77003D64C2 /* MovieStreamingAppUITests */,
 				442F1C3B2F646A75003D64C2 /* Products */,
-				FF0A6C3D2F670551007D5B81 /* Mulish-Regular.ttf */,
-				FF0A6C3F2F670562007D5B81 /* Mulish-Medium.ttf */,
-				FF0A6C412F67056F007D5B81 /* Mulish-Bold.ttf */,
-				FF0A6C432F67057B007D5B81 /* Mulish-SemiBold.ttf */,
+				FF930B1C2F69B21400E491D9 /* Fonts */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +135,7 @@
 			fileSystemSynchronizedGroups = (
 				442F1C3C2F646A75003D64C2 /* MovieStreamingApp */,
 				FF0A6C472F670E59007D5B81 /* DesignSystem */,
+				FF930B1C2F69B21400E491D9 /* Fonts */,
 			);
 			name = MovieStreamingApp;
 			packageProductDependencies = (
@@ -247,10 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0A6C402F670562007D5B81 /* Mulish-Medium.ttf in Resources */,
-				FF0A6C3E2F670551007D5B81 /* Mulish-Regular.ttf in Resources */,
-				FF0A6C422F67056F007D5B81 /* Mulish-Bold.ttf in Resources */,
-				FF0A6C442F67057B007D5B81 /* Mulish-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
