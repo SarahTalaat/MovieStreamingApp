@@ -29,9 +29,22 @@
 		442F1C562F646A77003D64C2 /* MovieStreamingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieStreamingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FF0A6C462F6705C6007D5B81 /* Exceptions for "MovieStreamingApp" folder in "MovieStreamingApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 442F1C392F646A75003D64C2 /* MovieStreamingApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		442F1C3C2F646A75003D64C2 /* MovieStreamingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF0A6C462F6705C6007D5B81 /* Exceptions for "MovieStreamingApp" folder in "MovieStreamingApp" target */,
+			);
 			path = MovieStreamingApp;
 			sourceTree = "<group>";
 		};
@@ -43,6 +56,16 @@
 		442F1C592F646A77003D64C2 /* MovieStreamingAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MovieStreamingAppUITests;
+			sourceTree = "<group>";
+		};
+		FF0A6C472F670E59007D5B81 /* DesignSystem */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		FF930B1C2F69B21400E491D9 /* Fonts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +98,12 @@
 		442F1C312F646A75003D64C2 = {
 			isa = PBXGroup;
 			children = (
+				FF0A6C472F670E59007D5B81 /* DesignSystem */,
 				442F1C3C2F646A75003D64C2 /* MovieStreamingApp */,
 				442F1C4F2F646A77003D64C2 /* MovieStreamingAppTests */,
 				442F1C592F646A77003D64C2 /* MovieStreamingAppUITests */,
 				442F1C3B2F646A75003D64C2 /* Products */,
+				FF930B1C2F69B21400E491D9 /* Fonts */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +134,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				442F1C3C2F646A75003D64C2 /* MovieStreamingApp */,
+				FF0A6C472F670E59007D5B81 /* DesignSystem */,
+				FF930B1C2F69B21400E491D9 /* Fonts */,
 			);
 			name = MovieStreamingApp;
 			packageProductDependencies = (
@@ -394,6 +421,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -404,10 +432,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 16;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahTalaatAmmar.MovieStreamingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,7 +449,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.2;
+				XROS_DEPLOYMENT_TARGET = 16;
 			};
 			name = Debug;
 		};
@@ -436,6 +464,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieStreamingApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -446,10 +475,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 16;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahTalaatAmmar.MovieStreamingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,7 +492,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.2;
+				XROS_DEPLOYMENT_TARGET = 16;
 			};
 			name = Release;
 		};
